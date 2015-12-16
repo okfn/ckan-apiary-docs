@@ -1,7 +1,11 @@
 FORMAT: 1A
-HOST: http://demo.ckan.org/
+HOST: http://docs.ckan.apiary.io/#
+TITLE: CKAN v2.4 API Specification
+DATE: 16 December 2015
+VERSION: 2.4
+APIARY_PROJECT: ckan
 
-# CKAN
+# CKAN v2.4 API Specification
 
 CKAN's **Action API** is a powerful, RPC-style API that exposes all of CKAN's
 core features to API clients. All of a CKAN website's core functionality
@@ -20,10 +24,23 @@ code that calls the CKAN API.  For example, using the CKAN API your app can:
     * http://demo.ckan.org/api/3/action/package_search?q=spending
     * http://demo.ckan.org/api/3/action/resource_search?query=name:District%20Names
 * Create, update and delete datasets, resources and other objects
-* Get an activity stream of recently changed datasets on a site:
-    * http://demo.ckan.org/api/3/action/recently_changed_packages_activity_list
 
 > Note: CKAN's [FileStore](http://docs.ckan.org/en/latest/maintaining/filestore.html) and [DataStore](http://docs.ckan.org/en/latest/maintaining/datastore.html) have their own APIs, see:
+
+## Editors
+
+  + Adrià Mercader, Open Knowledge.
+  + Brook Elgie, Open Knowledge.
+  + Jo Barratt, Open Knowledge.
+
+## Copyright
+
+This specification is licensed under the
+[FIWARE Open Specification License (implicit patents license)](http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/FI-WARE_Open_Specification_Legal_Notice_(implicit_patents_license)).
+
+## Status
+
+Final version aligned with FIWARE Release 4.
 
 ## Making an API request
 
